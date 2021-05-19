@@ -7,11 +7,11 @@ function CharacterList({ characters }) {
   return (
     <ul>
       {characters.map((character) => (
-        <li key={character.id}>
+        <li key={character._id}>
           <Character 
-            id={character.id}
+            _id={character._id}
             name={character.name}
-            image={characters.image}
+            image={character.image}
           />
         </li>
       ))}
@@ -22,7 +22,7 @@ function CharacterList({ characters }) {
 CharacterList.propTypes = {
   characters: PropTypes.arrayOf(
     PropTypes.shape({
-      id: PropTypes.string,
+      _id: PropTypes.string,
       name:PropTypes.string,
       image:PropTypes.string
     })

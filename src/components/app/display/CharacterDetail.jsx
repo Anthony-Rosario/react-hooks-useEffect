@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-function CharacterDetail({ character: {id, name, image } }) {
+function CharacterDetail({ character: { id, name, image } }) {
   return (
     <>
       <Link to={'/'}>Back to the list</Link>
