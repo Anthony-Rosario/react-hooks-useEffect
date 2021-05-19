@@ -5,13 +5,15 @@ import { Link } from 'react-router-dom';
 
 function Character({ id, name, image }) {
   return (
-    <Link key={`${id}-${name}`}>
-      <figure>
-        <img alt={name} src={image} />
-        <p>{id}</p>
-        <figcaption>{name}</figcaption>
-      </figure>
-    </Link>
+    <>
+      <Link key={`${id}-${name}`}>
+        <figure>
+          <img alt={name} src={image} />
+          <p>{id}</p>
+          <figcaption>{name}</figcaption>
+        </figure>
+      </Link>
+    </>
   );
 }
 
