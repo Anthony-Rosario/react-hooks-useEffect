@@ -17,7 +17,7 @@ function CharacterDetail({ character: {id, name, image } }) {
   );
 }
 
-CharacterDetail.PropTypes = {
+CharacterDetail.propTypes = {
   character: PropTypes.object.isRequired,
 };
 

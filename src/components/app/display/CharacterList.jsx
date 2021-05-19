@@ -19,8 +19,14 @@ function CharacterList({ characters }) {
   );
 }
 
-CharacterList.PropTypes = {
-  characters: PropTypes.object.isRequired,
+CharacterList.propTypes = {
+  characters: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string,
+      name:PropTypes.string,
+      image:PropTypes.string
+    })
+  ).isRequired,
 };
 
 export default CharacterList;

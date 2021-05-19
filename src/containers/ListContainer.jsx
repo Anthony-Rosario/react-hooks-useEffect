@@ -10,7 +10,7 @@ const ListContainer = () => {
     getCharacters()
       .then(setCharacters)
       .finally(() => setLoading(false));
-  });
+  }, []);
 
   if(loading) return <h1>Loading...</h1>;
 
