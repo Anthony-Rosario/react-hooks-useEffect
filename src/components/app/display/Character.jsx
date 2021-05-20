@@ -9,7 +9,8 @@ function Character({ _id, name, image }) {
     <Link key={`${_id}-${image}`} to={`/${_id}`}>
       <figure>
         <img alt={name} src={image} />
-        <figcaption>{name} - {_id} </figcaption>
+        <p>{_id}</p>
+        <figcaption>{name}</figcaption>
       </figure>
     </Link>
   );
