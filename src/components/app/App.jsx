@@ -1,5 +1,22 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import ListContainer from '../../containers/ListContainer';
+import ListDetailContainer from '../../containers/ListDetailContainer';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <Router>
+      <Switch>
+        <Route 
+          exact path="/"
+          component={ListContainer}
+        />
+        <Route 
+          path="/:_id"
+          component={ListDetailContainer}
+        />
+      </Switch>
+    </Router>
+  );
 }
