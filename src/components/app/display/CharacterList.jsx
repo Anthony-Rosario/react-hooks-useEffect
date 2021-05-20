@@ -7,7 +7,7 @@ function CharacterList({ characters }) {
   return (
     <ul>
       {characters.map((character) => (
-        <li key={character._id}>
+        <li key={`${character._id}-${character.name}`}>
           <Character 
             _id={character._id}
             name={character.name}

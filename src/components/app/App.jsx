@@ -2,7 +2,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ListContainer from '../../containers/ListContainer';
-// import ListDetailContainer from '../../containers/ListDetailContainer';
+import ListDetailContainer from '../../containers/ListDetailContainer';
 
 export default function App() {
   return (
@@ -12,10 +12,10 @@ export default function App() {
           exact path="/"
           component={ListContainer}
         />
-        {/* <Route 
-          path="/:id"
+        <Route 
+          path="/:_id"
           component={ListDetailContainer}
-        /> */}
+        />
       </Switch>
     </Router>
   );

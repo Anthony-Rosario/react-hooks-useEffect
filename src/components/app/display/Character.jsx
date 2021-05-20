@@ -6,11 +6,10 @@ import { Link } from 'react-router-dom';
 function Character({ _id, name, image }) {
   return (
 
-    <Link key={`${_id}-${name}`} to={`/${_id}`}>
+    <Link key={`${_id}-${image}`} to={`/${_id}`}>
       <figure>
         <img alt={name} src={image} />
-        <p>{_id}</p>
-        <figcaption>{name}</figcaption>
+        <figcaption>{name} - {_id} </figcaption>
       </figure>
     </Link>
   );
