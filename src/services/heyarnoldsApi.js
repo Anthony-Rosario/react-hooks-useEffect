@@ -8,7 +8,7 @@ export async function getCharacters() {
 }
 
 export async function getCharacterById(_id) {
-  const response = await fetch(`https://hey-arnold-api.herokuapp.com/api/v1/characters/${_id}/`);
+  const response = await fetch(`https://hey-arnold-api.herokuapp.com/api/v1/characters/${_id}`);
   const json = await response.json();
 
   return json;

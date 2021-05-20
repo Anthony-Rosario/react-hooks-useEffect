@@ -8,7 +8,8 @@ function CharacterDetail({ character }) {
       <Link to={'/'}>Back to the list</Link>
       <figure>
         <img alt={character.name} src={character.image} />
-        <figcaption>{character.name} - {character._id} </figcaption>
+        <p>{character._id}</p>
+        <figcaption>{character.name}</figcaption>
       </figure>
     </>
   );

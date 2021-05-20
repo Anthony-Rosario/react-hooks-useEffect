@@ -4,7 +4,7 @@ import CharacterDetail from '../components/app/display/CharacterDetail';
 import { getCharacterById } from '../services/heyarnoldsApi';
 
 const ListDetailContainer = ({ match }) => {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   const [character, setCharacters] = useState({});
 
   useEffect(() => {
@@ -17,7 +17,7 @@ const ListDetailContainer = ({ match }) => {
     <div>
       {loading ? <h1>Loading...</h1>
         :
-        <CharacterDetail character={character} />
+        <CharacterDetail character={ { ...character } } />
       }
     </div>
   );
