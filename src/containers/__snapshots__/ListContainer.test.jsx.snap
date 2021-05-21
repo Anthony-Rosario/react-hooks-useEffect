@@ -1,0 +1,375 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`displays a loading screen 1`] = `
+<h1>
+  Loading...
+</h1>
+`;
+
+exports[`displays a loading screen 2`] = `
+<ul
+  aria-label="character list"
+  role="list"
+>
+  <li>
+    <a
+      href="/5da237699734fdcb7bef8f51"
+    >
+      <figure>
+        <img
+          alt="Arnold Shortman"
+          src="https: //vignette.wikia.nocookie.net/heyarnold/images/f/f5/Arnold.png/revision/latest?cb=20181027162333"
+        />
+        <p>
+          5da237699734fdcb7bef8f51
+        </p>
+        <figcaption>
+          Arnold Shortman
+        </figcaption>
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5da237699734fdcb7bef8f52"
+    >
+      <figure>
+        <img
+          alt="Grandpa Phil"
+          src="https: //vignette.wikia.nocookie.net/heyarnold/images/7/79/GrandpaPhil.png/revision/latest/scale-to-width-down/300?cb=20160924030436"
+        />
+        <p>
+          5da237699734fdcb7bef8f52
+        </p>
+        <figcaption>
+          Grandpa Phil
+        </figcaption>
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5da237699734fdcb7bef8f53"
+    >
+      <figure>
+        <img
+          alt="Grandma Gertie"
+          src="https: //vignette.wikia.nocookie.net/heyarnold/images/7/7b/DB87AC2A-C2C2-4DAB-AECF-B9F7273C746B.png/revision/latest/scale-to-width-down/306?cb=20190816101257"
+        />
+        <p>
+          5da237699734fdcb7bef8f53
+        </p>
+        <figcaption>
+          Grandma Gertie
+        </figcaption>
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5da237699734fdcb7bef8f54"
+    >
+      <figure>
+        <img
+          alt="Mitzi"
+          src="https: //vignette.wikia.nocookie.net/heyarnold/images/d/d9/Mitzi.png/revision/latest/scale-to-width-down/310?cb=20171212070331"
+        />
+        <p>
+          5da237699734fdcb7bef8f54
+        </p>
+        <figcaption>
+          Mitzi
+        </figcaption>
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5da237699734fdcb7bef8f55"
+    >
+      <figure>
+        <img
+          alt="Arnie"
+          src="https: //vignette.wikia.nocookie.net/heyarnold/images/4/42/Arnie.jpg/revision/latest/scale-to-width-down/310?cb=20110109195825"
+        />
+        <p>
+          5da237699734fdcb7bef8f55
+        </p>
+        <figcaption>
+          Arnie
+        </figcaption>
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5da237699734fdcb7bef8f56"
+    >
+      <figure>
+        <img
+          alt="Miles Shortman"
+          src="https: //vignette.wikia.nocookie.net/heyarnold/images/2/2e/Miles.jpg/revision/latest/scale-to-width-down/243?cb=20101115140639"
+        />
+        <p>
+          5da237699734fdcb7bef8f56
+        </p>
+        <figcaption>
+          Miles Shortman
+        </figcaption>
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5da237699734fdcb7bef8f57"
+    >
+      <figure>
+        <img
+          alt="Stella Shortman"
+          src="https: //vignette.wikia.nocookie.net/heyarnold/images/f/fa/Stella.jpg/revision/latest?cb=20101225143956"
+        />
+        <p>
+          5da237699734fdcb7bef8f57
+        </p>
+        <figcaption>
+          Stella Shortman
+        </figcaption>
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5da237699734fdcb7bef8f58"
+    >
+      <figure>
+        <img
+          alt="Grandpa's father"
+          src="https: //vignette.wikia.nocookie.net/heyarnold/images/e/e0/Grandpa%27s_father.png/revision/latest/scale-to-width-down/310?cb=20190228081112"
+        />
+        <p>
+          5da237699734fdcb7bef8f58
+        </p>
+        <figcaption>
+          Grandpa's father
+        </figcaption>
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5da237699734fdcb7bef8f59"
+    >
+      <figure>
+        <img
+          alt="Grandpa's grandfather"
+          src="https: //vignette.wikia.nocookie.net/heyarnold/images/f/f7/Grandpa%27s_grandfather.png/revision/latest/scale-to-width-down/310?cb=20190228081015"
+        />
+        <p>
+          5da237699734fdcb7bef8f59
+        </p>
+        <figcaption>
+          Grandpa's grandfather
+        </figcaption>
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5da237699734fdcb7bef8f5a"
+    >
+      <figure>
+        <img
+          alt="Oskar Kokoshka"
+          src="https: //vignette.wikia.nocookie.net/heyarnold/images/c/c5/Oskar_Kokoshka.png/revision/latest/scale-to-width-down/310?cb=20180707032418"
+        />
+        <p>
+          5da237699734fdcb7bef8f5a
+        </p>
+        <figcaption>
+          Oskar Kokoshka
+        </figcaption>
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5da237699734fdcb7bef8f5b"
+    >
+      <figure>
+        <img
+          alt="Suzie Kokoshka"
+          src="https: //vignette.wikia.nocookie.net/heyarnold/images/f/fe/Suzie.jpg/revision/latest/scale-to-width-down/310?cb=20110223003447"
+        />
+        <p>
+          5da237699734fdcb7bef8f5b
+        </p>
+        <figcaption>
+          Suzie Kokoshka
+        </figcaption>
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5da237699734fdcb7bef8f5c"
+    >
+      <figure>
+        <img
+          alt="Nancy"
+          src="https: //vignette.wikia.nocookie.net/heyarnold/images/6/62/Nancy.jpg/revision/latest/scale-to-width-down/310?cb=20110423055923"
+        />
+        <p>
+          5da237699734fdcb7bef8f5c
+        </p>
+        <figcaption>
+          Nancy
+        </figcaption>
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5da237699734fdcb7bef8f5d"
+    >
+      <figure>
+        <img
+          alt="Ernie Potts"
+          src="https: //vignette.wikia.nocookie.net/heyarnold/images/6/67/Ernie.jpeg/revision/latest/scale-to-width-down/310?cb=20181213181427"
+        />
+        <p>
+          5da237699734fdcb7bef8f5d
+        </p>
+        <figcaption>
+          Ernie Potts
+        </figcaption>
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5da237699734fdcb7bef8f5e"
+    >
+      <figure>
+        <img
+          alt="Mr. Hyunh"
+          src="https: //vignette.wikia.nocookie.net/heyarnold/images/6/60/Mr._Hyunh.png/revision/latest/scale-to-width-down/310?cb=20180707031441"
+        />
+        <p>
+          5da237699734fdcb7bef8f5e
+        </p>
+        <figcaption>
+          Mr. Hyunh
+        </figcaption>
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5da237699734fdcb7bef8f5f"
+    >
+      <figure>
+        <img
+          alt="Mai Hyunh"
+          src="https: //vignette.wikia.nocookie.net/heyarnold/images/8/83/Mai_Hyunh.jpeg/revision/latest/scale-to-width-down/310?cb=20190118192457"
+        />
+        <p>
+          5da237699734fdcb7bef8f5f
+        </p>
+        <figcaption>
+          Mai Hyunh
+        </figcaption>
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5da237699734fdcb7bef8f60"
+    >
+      <figure>
+        <img
+          alt="Mr. Smith"
+          src="https: //vignette.wikia.nocookie.net/heyarnold/images/8/80/Mr._Smith.jpg/revision/latest?cb=20110206233402"
+        />
+        <p>
+          5da237699734fdcb7bef8f60
+        </p>
+        <figcaption>
+          Mr. Smith
+        </figcaption>
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5da237699734fdcb7bef8f61"
+    >
+      <figure>
+        <img
+          alt="Lana Vail"
+          src="https: //vignette.wikia.nocookie.net/heyarnold/images/e/e8/762C69BE-23BA-48BA-9B14-6AF3246FCD3F.jpeg/revision/latest/scale-to-width-down/304?cb=20190106211607"
+        />
+        <p>
+          5da237699734fdcb7bef8f61
+        </p>
+        <figcaption>
+          Lana Vail
+        </figcaption>
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5da237699734fdcb7bef8f62"
+    >
+      <figure>
+        <img
+          alt="Mr. Purdy (character)"
+          src="https: //vignette.wikia.nocookie.net/heyarnold/images/9/9c/Mr._Purdy_%28character%29.jpeg/revision/latest?cb=20190125214742"
+        />
+        <p>
+          5da237699734fdcb7bef8f62
+        </p>
+        <figcaption>
+          Mr. Purdy (character)
+        </figcaption>
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5da237699734fdcb7bef8f63"
+    >
+      <figure>
+        <img
+          alt="Helga G. Pataki"
+          src="https: //vignette.wikia.nocookie.net/heyarnold/images/e/e5/Helga_Pataki.png/revision/latest/scale-to-width-down/266?cb=20190816021807"
+        />
+        <p>
+          5da237699734fdcb7bef8f63
+        </p>
+        <figcaption>
+          Helga G. Pataki
+        </figcaption>
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5da237699734fdcb7bef8f64"
+    >
+      <figure>
+        <img
+          alt="Robert \\"Big Bob\\" Pataki"
+          src="https: //vignette.wikia.nocookie.net/heyarnold/images/8/89/Big_Bob.jpg/revision/latest/scale-to-width-down/310?cb=20170428021615"
+        />
+        <p>
+          5da237699734fdcb7bef8f64
+        </p>
+        <figcaption>
+          Robert "Big Bob" Pataki
+        </figcaption>
+      </figure>
+    </a>
+  </li>
+</ul>
+`;

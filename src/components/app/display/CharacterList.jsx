@@ -1,11 +1,12 @@
-/* eslint-disable react/prop-types */
+/* eslint-disable jsx-quotes */
+
 import React from 'react';
 import PropTypes from 'prop-types';
 import Character from '../display/Character';
 
 function CharacterList({ characters }) {
   return (
-    <ul>
+    <ul aria-label= 'character list' role="list">
       {characters.map((character) => (
         <li key={`${character._id}-${character.name}`}>
           <Character 
@@ -28,5 +29,7 @@ CharacterList.propTypes = {
     })
   ).isRequired,
 };
+
+
 
 export default CharacterList;

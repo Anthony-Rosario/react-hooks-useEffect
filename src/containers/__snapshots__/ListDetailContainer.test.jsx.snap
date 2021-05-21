@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hey Arnold detail container should display the character that was clicked on based on its id 1`] = `
+<h1>
+  Loading...
+</h1>
+`;
+
+exports[`Hey Arnold detail container should display the character that was clicked on based on its id 2`] = `
+<figcaption>
+  Arnold Shortman
+</figcaption>
+`;

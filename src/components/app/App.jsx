@@ -13,7 +13,7 @@ export default function App() {
           component={ListContainer}
         />
         <Route 
-          path="/:_id"
+          path="/:id"
           component={ListDetailContainer}
         />
       </Switch>
